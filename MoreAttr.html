@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            My page
+        </title>
+    </head>
+    <body style="background-color:darkgrey">
+        <h1 align = "center" style="color:red">
+            Welcome to Coding Hub <br>
+            Registration form
+        </h1>
+        <form action="https://codinghub.co.in/" >
+            <fieldset>
+                <legend>Personal Information</legend> <br>
+            Name:<input type = "text" required value="Enter your full name"> <br><br>
+            Email:<input type = "email" required> <br><br>
+            DOB:<input type = "date"><br><br>
+            
+
+            Address:
+            <textarea style="resize: none;"></textarea> <br><br>
+
+
+            Mobile Number: 
+            <select>
+                <option value="">+91(india)</option>
+                <option value="">+83(US)</option>
+                <option value="">+81(UK)</option>
+                <option value="">+71(CAN)</option>
+
+            </select>
+            <input type = "tel" pattern="[0-9]{10}"> validate <br><br>
+
+            OTP: <input type = "tel" pattern="[0-9]{4}"> <br><br>
+            </fieldset> <br><br>
+
+    
+
+            University Name: <input type="text" list = "name">
+            <datalist id = "name">
+                <option value="BITS"></option>
+                <option value="KITS"></option>
+                <option value="KU"></option>
+                <option value="SRU"></option>
+                <option value="CJIT"></option>
+            </datalist> <br><br>
+
+
+
+            <span>Stream: </span>
+            <select>
+                <option value="">CSE</option>
+                <option value="" selected>ECE</option>
+                <option value="">EEE</option>
+                <option value="">CIVIL</option>
+                <option value="">MECH</option>
+            </select>
+
+
+            
+            <p>Skills</p> 
+            <input type = "checkbox" name = "skills"> Java 
+            <input type = "checkbox" name = "skills"> Python 
+            <input type = "checkbox" name = "skills"> HTML <br>
+            <input type = "checkbox" name = "skills"> CSS
+            <input type = "checkbox" name = "skills"> JavaScript
+            <input type = "checkbox" name = "skills"> MySQL <br>
+            <input type = "checkbox" name = "skills"> Springboot 
+            <input type = "checkbox" name = "skills"> Angular
+            <input type = "checkbox" name = "skills"> React <br><br>
+
+            Work Experience in years
+            <input type="number" value="5"> <br><br>
+
+
+            Already a user 
+            <a href="file:///D:/HTML/Form/Login.html">
+                Login</a><br><br>
+            <input type = "submit" value="Register">
+            
+
+
+
+        </form>
+    </body>
+</html>
